@@ -1,0 +1,95 @@
+css
+/* Element Selector */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333333;
+}
+
+/* Element Selector */
+header {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Element Selector */
+h1 {
+    font-size: 40px;
+}
+
+/* ID Selector */
+#about {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Class Selector */
+.intro {
+    color: #2563eb;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Element Selector */
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Ordered List */
+.movies {
+    background-color: #fff3cd;
+    padding: 20px 40px;
+}
+
+/* Ordered List Items */
+.movies li {
+    margin: 8px;
+    color: #8a4b08;
+}
+
+/* Unordered List */
+.cities {
+    background-color: rgb(220, 252, 231);
+    padding: 20px 40px;
+    list-style-type: square;
+}
+
+/* Unordered List Items */
+.cities li {
+    margin: 8px;
+    color: #166534;
+}
+
+/* Pseudo-class Selector */
+.movies li:hover {
+    color: #dc2626;
+    cursor: pointer;
+}
+
+/* Pseudo-class Selector */
+.cities li:hover {
+    color: #2563eb;
+    cursor: pointer;
+}
+
+/* Contact Class */
+.contact {
+    color: rgb(75, 85, 99);
+    font-size: 16px;
+}
+
+/* Element Selector */
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
