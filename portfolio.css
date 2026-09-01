@@ -1,0 +1,177 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #060101;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #198754;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Navigation */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #00adb5;
+}
+
+/* Main */
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    margin: 30px 0;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #198754;
+}
+
+/* Figure */
+figure {
+    text-align: center;
+    margin: 20px;
+}
+
+figure img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Skills */
+#skills ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+#skills li {
+    background-color: #198754;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Projects */
+article {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 6px;
+}
+
+article h3 {
+    color: #198754;
+    margin-bottom: 8px;
+}
+
+/* Timetable */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #aaa;
+    color: #561251;
+    padding: 12px;
+    text-align: center;
+}
+
+thead {
+    background-color: #198754;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #d1e7dd;
+}
+
+/* Contact */
+address {
+    text-align: center;
+    font-style: normal;
+    line-height: 2;
+}
+
+/* Footer */
+footer {
+    background-color: #198754;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+/* Mobile */
+@media (max-width: 700px) {
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th,
+    td {
+        padding: 7px;
+    }
+}
